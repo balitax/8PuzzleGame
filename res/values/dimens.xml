@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <dimen name="dis1">6dp</dimen>
+    <dimen name="dis2">94dp</dimen>
+    <dimen name="dis3">182dp</dimen>
+    
+    <dimen name="cellsize">72px</dimen>
+    
+    <dimen name="textsize">14pt</dimen>
+     <dimen name="stagetextsize">12pt</dimen>
+    
+</resources>

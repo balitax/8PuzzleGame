@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<puzzleApp>
+    <version>1.0.0</version>
+    <author>yinger</author>
+    <blog>www.cnblogs.com/yinger</blog>
+    <stages>
+		<stage>
+		    	<id>1</id>
+		    	<name>Number Challenge</name>
+		        <path>134205876</path>
+		        <shortpath>12345678</shortpath>
+		        <timelimit>10</timelimit>
+		        <footlimit>10</footlimit>
+		</stage>        
+        <stage>
+		    	<id>2</id>
+		    	<name>Alphabet Challenge</name>
+		        <path>134025876</path>
+		        <shortpath>12345678</shortpath>
+		        <timelimit>10</timelimit>
+		        <footlimit>10</footlimit>
+		</stage>
+		<stage>
+		    	<id>3</id>
+		    	<name>Angry Birds</name>
+		        <path>134250876</path>
+		        <shortpath>12345678</shortpath>
+		        <timelimit>10</timelimit>
+		        <footlimit>10</footlimit>
+		</stage>
+		<stage>
+		    	<id>4</id>
+		    	<name>ONE PIECE</name>
+		        <path>134275806</path>
+		        <shortpath>12345678</shortpath>
+		        <timelimit>10</timelimit>
+		        <footlimit>10</footlimit>
+		</stage>
+    </stages>
+    
+</puzzleApp>

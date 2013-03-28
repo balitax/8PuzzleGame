@@ -1,0 +1,48 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yinger.puzzlegame"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <!-- 开通手机振动权限 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:icon="@drawable/launcher72"
+        android:label="@string/app_name"
+        android:theme="@style/ThemeActivity" >
+        <activity
+            android:name=".LaucherActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".PuzzleActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".StagesActivity"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name=".AboutActivity"
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+
+</manifest>

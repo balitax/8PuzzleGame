@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">8PuzzleGame</string>
+    <string name="menu_settings">Settings</string>
+    <string name="resultTime">时间</string>
+    <string name="resultFoot">步数</string>
+    <string name="resultPoint">成绩</string>
+
+</resources>

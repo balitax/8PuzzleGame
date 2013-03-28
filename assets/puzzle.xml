@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<puzzleApp>
+    <version>1.0.0</version>
+    <author>yinger</author>
+    <blog>www.cnblogs.com/yinger</blog>
+    <firstrun>1</firstrun>
+    <currentStage>1</currentStage>
+    <currentPuzzle>1</currentPuzzle>
+    <stages>
+		<stage id="1" name="Numbers" stagetime="-1">
+		    <puzzle id="1">
+		        <path>1435276</path>
+		        <shortpath>12345678</shortpath>
+		        <timelimit>60</timelimit>
+		        <score>0</score>
+		        <time>40</time>
+		    </puzzle>
+		    <puzzle id="2">
+		        <path>1435276</path>
+		        <shortpath>12345678</shortpath>
+		        <timelimit>60</timelimit>
+		        <score>0</score>
+		        <time>40</time>
+		    </puzzle>
+		    <puzzle id="3">
+		        <path>1435276</path>
+		        <shortpath>12345678</shortpath>
+		        <timelimit>60</timelimit>
+		        <score>0</score>
+		        <time>40</time>
+		    </puzzle>
+		</stage>        
+        <stage id="2" name="Alphbets" stagetime="-1">
+		    <puzzle id="1">
+		        <path>1435276</path>
+		        <shortpath>12345678</shortpath>
+		        <timelimit>60</timelimit>
+		        <score>0</score>
+		        <time>40</time>
+		    </puzzle>
+		    <puzzle id="2">
+		        <path>1435276</path>
+		        <shortpath>12345678</shortpath>
+		        <timelimit>60</timelimit>
+		        <score>0</score>
+		        <time>40</time>
+		    </puzzle>
+		    <puzzle id="3">
+		        <path>1435276</path>
+		        <shortpath>12345678</shortpath>
+		        <timelimit>60</timelimit>
+		        <score>0</score>
+		        <time>40</time>
+		    </puzzle>
+		</stage>        
+		<stage id="3" name="Angry Birds" stagetime="-1">
+		    <puzzle id="1">
+		        <path>1435276</path>
+		        <shortpath>12345678</shortpath>
+		        <timelimit>60</timelimit>
+		        <score>0</score>
+		        <time>40</time>
+		    </puzzle>
+		    <puzzle id="2">
+		        <path>1435276</path>
+		        <shortpath>12345678</shortpath>
+		        <timelimit>60</timelimit>
+		        <score>0</score>
+		        <time>40</time>
+		    </puzzle>
+		    <puzzle id="3">
+		        <path>1435276</path>
+		        <shortpath>12345678</shortpath>
+		        <timelimit>60</timelimit>
+		        <score>0</score>
+		        <time>40</time>
+		    </puzzle>
+		</stage>        
+		<stage id="4" name="ONE PIECE" stagetime="-1">
+		    <puzzle id="1">
+		        <path>1435276</path>
+		        <shortpath>12345678</shortpath>
+		        <timelimit>60</timelimit>
+		        <score>0</score>
+		        <time>40</time>
+		    </puzzle>
+		    <puzzle id="2">
+		        <path>1435276</path>
+		        <shortpath>12345678</shortpath>
+		        <timelimit>60</timelimit>
+		        <score>0</score>
+		        <time>40</time>
+		    </puzzle>
+		    <puzzle id="3">
+		        <path>1435276</path>
+		        <shortpath>12345678</shortpath>
+		        <timelimit>60</timelimit>
+		        <score>0</score>
+		        <time>40</time>
+		    </puzzle>
+		</stage>        
+    </stages>
+    
+</puzzleApp>

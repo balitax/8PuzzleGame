@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popwindow"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/resultbox"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <!-- 注意下，table中的列宽是一定的，它会根据最大的列宽显示 -->
+
+        <TableLayout
+            android:id="@+id/table"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="66dp" >
+
+            <TableRow
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/resultTime"
+                    android:textColor="@color/textcolor"
+                    android:textSize="@dimen/textsize" />
+
+                <TextView
+                    android:id="@+id/tvResultTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="10dp"
+                    android:text="00:00"
+                    android:textColor="@color/textcolor"
+                    android:textSize="@dimen/textsize" />
+            </TableRow>
+
+            <TableRow
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/resultFoot"
+                    android:textColor="@color/textcolor"
+                    android:textSize="@dimen/textsize" />
+
+                <TextView
+                    android:id="@+id/tvResultFoot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="40dp"
+                    android:text="0"
+                    android:textColor="@color/textcolor"
+                    android:textSize="@dimen/textsize" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/trResult"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:visibility="visible" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/resultPoint"
+                    android:textColor="@color/textcolor"
+                    android:textSize="@dimen/textsize" />
+
+                <LinearLayout
+                    android:id="@+id/resultViewGroup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+
+        <ImageView
+            android:id="@+id/ivOk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/table"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/buttonok" />
+    </RelativeLayout>
+
+</FrameLayout>

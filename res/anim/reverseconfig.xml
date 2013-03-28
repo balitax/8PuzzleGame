@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 指定动画匀速改变 -->
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/linear_interpolator" >
+
+    <!-- 定义缩放变换 -->
+    <scale
+        android:duration="@integer/buttonanimationduration"
+        android:fillAfter="false"
+        android:fromXScale="1.0"
+        android:fromYScale="1.0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toXScale="1.06"
+        android:toYScale="1.06" />
+    <!-- 定义旋转变换 -->
+    <rotate
+        android:duration="@integer/buttonanimationduration"
+        android:fillAfter="true"
+        android:fromDegrees="180"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toDegrees="0" />
+
+</set>
